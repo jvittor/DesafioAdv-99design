@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Categories from "./Components/Categories";
+import Categories from "./Components/Categories/GridCategories";
 
 
 const App = () => {
