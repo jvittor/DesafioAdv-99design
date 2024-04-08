@@ -74,7 +74,7 @@ const Carousel = ({ slides }) => {
         >
             Design constest for The Hype Lab
             < br />
-            Winning deisgn by leonelbalza
+            Winning design by leonelbalza
         </Text>
       </Flex>
     </Box>
