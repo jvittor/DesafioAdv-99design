@@ -50,7 +50,6 @@ export default function GridCategories() {
                 borderBottom="1px solid rgba(0, 0, 0, 0.1)"
                 bg="white"
                 as="button"
-                href="/identity-brand-pack/details"
               >
                 <Box
                   bg="#01A1C1"
