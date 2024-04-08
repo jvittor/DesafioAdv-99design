@@ -4,6 +4,14 @@ import { FaStar } from "react-icons/fa";
 import Identity from "../../assets/identity.png";
 import { IoMdCheckmark } from "react-icons/io";
 import HeaderCategories from "./HeaderCategories";
+import LogoBrand from "../../assets/logobrand.png";
+import LogoBrandGuide from "../../assets/logobrandguide.png";
+import LogoBusiness from "../../assets/logobusiness.png";
+import LogoBusinessCard from "../../assets/logobusinesscard.png";
+import LogoWebsite from "../../assets/logowebsite.png";
+import Stationery from "../../assets/stationery.png";
+import LogoSocial from "../../assets/logosocial.png";
+import BrandGuide2 from "../../assets/brandguide2.png";
 
 export default function GridCategories() {
   const [isSmallScreen] = useMediaQuery("(max-width: 768px)");
@@ -152,7 +160,7 @@ export default function GridCategories() {
                   >
                     <Image mt={{base: 12, md: 10, lg: 10}} w="50%"
                       pos="relative"
-                      src={Identity} />
+                      src={LogoBrandGuide} />
                     <Box>
                       <Heading textAlign={"left"} fontFamily="Nunito Sans"
                         fontSize={{ base: "20px", md: "17.5px", lg: "20px" }}
@@ -202,7 +210,7 @@ export default function GridCategories() {
                   >
                     <Image mt={10} w="50%"
                       pos="relative"
-                      src={Identity} />
+                      src={LogoBusiness} />
                     <Box>
                       <Heading textAlign={"left"} fontFamily="Nunito Sans"
                         fontSize={{ base: "20px", md: "17.5px", lg: "20px" }}
@@ -249,12 +257,12 @@ export default function GridCategories() {
                   pos="relative"
                   top="20%"
                 >
-                  <Image mt={3} ml={5} w="15%" src={Identity} />
+                  <Image mt={3} ml={5} w="15%" src={LogoBrandGuide} />
                   <Stack
                     pos="relative"
                     top={5}
                   >
-                    <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" bottom={1}>
+                    <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" left={5} bottom={1}>
                       Logo & brand guide
                       <br />
                       <Flex>
@@ -312,8 +320,8 @@ export default function GridCategories() {
                   top="20%"
                   left={{base: "-1%", md: "5%", lg: "5%"}}
                 >
-                  <Image mt={3} ml={5} w="15%" src={Identity} />
-                  <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" bottom={1}>
+                  <Image mt={3} ml={5} w="15%" src={LogoBusinessCard} />
+                  <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" left={5} bottom={1}>
                     Logo & business card
                     <br />
                     <Flex>
@@ -371,8 +379,8 @@ export default function GridCategories() {
                   pos="relative"
                   top="20%"
                 >
-                  <Image mt={3} ml={5} w="15%" src={Identity} />
-                  <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" bottom={1}>
+                  <Image mt={3} ml={5} w="15%" src={LogoWebsite} />
+                  <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" left={5} bottom={1}>
                     Logo & website
                     <br />
                     <Flex>
@@ -461,9 +469,11 @@ export default function GridCategories() {
                 top="20%"
                 left={{ base: "5%", sm: "5%", md: "5%", lg: "5%" , xl: "5%"}} 
               >
-                <Image mt={3} ml={5} w="15%" src={Identity} />
+                <Image mt={3} ml={5} w="15%" src={LogoSocial} />
                 <Heading fontFamily="Nunito Sans" fontSize="20px" pos="relative" 
-                bottom={{base: 5, sm: 1, md: 1, lg: 1, xl: 1}}>
+                bottom={{base: 5, sm: 1, md: 1, lg: 1, xl: 1}}
+                left={5}
+                >
                   Logo & social media pack
                   <br />
                   <Flex>
@@ -539,7 +549,7 @@ export default function GridCategories() {
                   >
                     <Image mt={10} w="50%"
                       pos="relative"
-                      src={Identity} />
+                      src={BrandGuide2} />
                     <Box>
                       <Heading textAlign={"left"} fontFamily="Nunito Sans" 
                       fontSize={{base: "20px", md: "17px", lg: "20px"}} pos="relative" bottom={1}>
@@ -579,7 +589,7 @@ export default function GridCategories() {
                   >
                     <Image mt={10} w="50%"
                       pos="relative"
-                      src={Identity} />
+                      src={Stationery} />
                     <Box>
                       <Heading textAlign={"left"} fontFamily="Nunito Sans" 
                       fontSize={{base: "20px", md: "17px", lg: "20px"}} 
