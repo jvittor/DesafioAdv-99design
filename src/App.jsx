@@ -12,7 +12,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CategoriesPage />} />
-          <Route path="/brand-identity-pack/details" element={<BrandIdentityPackPage />} />
+          <Route path="/brand-identity-pack" element={<BrandIdentityPackPage />} />
           {/* <Route path="*" element={<Pagina404 />} />  alterar depois*/}
         </Routes>
       </BrowserRouter>

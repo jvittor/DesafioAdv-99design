@@ -38,7 +38,7 @@ export default function GridCategories() {
             >
               
               <a
-              href="/brand-identity-pack/details"
+              href="/brand-identity-pack"
               target="_blank"
               >
               <Box
