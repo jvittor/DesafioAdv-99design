@@ -12,6 +12,8 @@ export default function BreadCrumbs() {
         <>
             <Text
             mt={{base: 6, md: 6, lg: 4, xl: 4, "2xl": 4}} 
+            fontSize={{ base: "10px", md: "12px", lg: "13px", xl: "13px", "2xl": "14px" }}
+            fontFamily={"Arial"}
             >
                 {breadcrumbs.map((breadcrumb, index) => (
                     <span key={index}>
@@ -21,7 +23,7 @@ export default function BreadCrumbs() {
                         {index === 0 ? (
                             <Link
                                 href={breadcrumb.url}
-                                style={{ fontWeight: "normal", color: "black", opacity: "0.5" }}
+                                style={{ fontStyle: "light", color: "black", opacity: "0.5" }}
                                 _hover={{ textDecoration: "underline" }}
                             >
                                 {breadcrumb.label}
@@ -32,6 +34,7 @@ export default function BreadCrumbs() {
                     </span>
                 ))}
             </Text>
+   
         </>
     );
 }
