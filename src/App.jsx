@@ -3,7 +3,7 @@ import "./App.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CategoriesPage from "./Components/Categories/CategoriesPage";
-import  BrandIdentityPackPage from "./Components/BrandIdentityPack/BrandIdentityPackPage";
+import BrandIdentityPackPage from "./Components/BrandIdentityPack/BrandIdentityPackPage";
 
 
 const App = () => {
@@ -12,8 +12,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CategoriesPage />} />
-          <Route path="/brand-identity-pack" element={<BrandIdentityPackPage />} />
-          {/* <Route path="*" element={<Pagina404 />} />  alterar depois*/}
+          <Route path="/identity" element={<BrandIdentityPackPage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

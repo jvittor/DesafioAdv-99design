@@ -38,8 +38,7 @@ export default function GridCategories() {
             >
               
               <a
-              href="/brand-identity-pack"
-              target="_blank"
+              href="/identity"
               >
               <Box
                 h={{ base: "300px", md: "350px", lg: "300px" }}
