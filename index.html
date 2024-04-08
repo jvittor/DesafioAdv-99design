@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./src/assets/favicon.png" />
     <title>Graphic Design Services | 99designs</title>
-  </head>
-  <body>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wdth@0,97.4;1,97.4&display=swap" rel="stylesheet">
+</head>
+<body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <script>
+        if (window.location.pathname === '/brand-identity-pack/details') {
+            document.title = "Logo & brand identity pack details | 99designs";
+        }
+    </script>
+</body>
 </html>
