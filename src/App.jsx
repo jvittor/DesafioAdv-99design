@@ -12,7 +12,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CategoriesPage />} />
-          <Route path="/identity" element={<BrandIdentityPackPage />} />
+          <Route path="/brand-identity-pack" element={<BrandIdentityPackPage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
